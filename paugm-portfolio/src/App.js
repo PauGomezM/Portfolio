@@ -1,8 +1,9 @@
+import Sections from "./Sections";
 
 function App() {
   return (
     <div>
-      Heyyy
+      <Sections/>
     </div>
   );
 }
