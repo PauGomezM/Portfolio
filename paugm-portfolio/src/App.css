@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.sections {
+    display: flex;
+    height: 100vh;
+}
+
+.first-section {
+    flex: 0 0 auto;
+    padding: 20px;
+    background-color: rgb(82, 82, 82);
+    width: 25%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.second-section {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(68, 68, 68);
+    width: 75%;
+    overflow-y: auto;
+}
