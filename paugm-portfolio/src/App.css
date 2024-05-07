@@ -1,5 +1,10 @@
+:root {
+    --first-color: rgb(19, 59, 99);
+}
+
 * {
     box-sizing: border-box;
+
 }
 
 .sections {
