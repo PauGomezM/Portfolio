@@ -33,7 +33,9 @@ p {
 a {
     color: #22d3ee;
 }
-
+li {
+    color: #a5f3fc;
+}
 /*******default*********/
 .sections {
     display: flex;
@@ -51,7 +53,7 @@ a {
 
 .second-section {
     flex: 1;
-    padding: 20px;
+    padding: 5%;
     background-color: #083344;
     width: 75%;
     overflow-y: auto;

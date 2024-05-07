@@ -1,6 +1,4 @@
-import React from "react"
-import ReactDOM from "react-dom"
-
+import Experience from "./Blocks/Experience";
 
 export default function Sections() {
     return (
@@ -25,40 +23,11 @@ export default function Sections() {
                 <p>sdafdgdfg</p>
                 <p>sdafdgdfg</p>
                 <p>sdafdgdfg</p>
+                <p>sdafdgdfg</p>
+                <p>sdafdgdfg</p>
             </div>
             <div className="second-section">
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
-                <p>sdafdgdfg</p>
+            <Experience/>
             </div>
         </div>
     )
