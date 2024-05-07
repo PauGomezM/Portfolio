@@ -51,7 +51,7 @@ li {
     display: flex;
     height: 100vh;
 }
-
+/**************first section**********/
 .first-section {
     flex: 0 0 auto;
     padding: 20px;
@@ -60,7 +60,20 @@ li {
     height: 100vh;
     overflow: hidden;
 }
+.profile-img {
+    width: 100px;
+    border-radius: 100%;
+}
 
+.profile-section1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-section1 img {
+    margin-right: 20px;
+}
+/**************second section**********/
 .second-section {
     flex: 1;
     padding: 25px 5% 5% 5% ;
