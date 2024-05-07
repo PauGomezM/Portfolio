@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 /*******default*********/
+body {
+    font-family: "Nunito", sans-serif;
+}
+
 h1 {
-    color: #cffafe;
+    color: #cffafe54;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
 }
 
 h2 {
     color: #cffafe;
+    font-weight: 300;
 }
 
 h3 {
@@ -53,7 +63,7 @@ li {
 
 .second-section {
     flex: 1;
-    padding: 5%;
+    padding: 25px 5% 5% 5% ;
     background-color: #083344;
     width: 75%;
     overflow-y: auto;
@@ -64,4 +74,8 @@ li {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.studies-title {
+
 }

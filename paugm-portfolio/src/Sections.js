@@ -1,4 +1,5 @@
 import Experience from "./Blocks/Experience";
+import Studies from "./Blocks/Studies";
 
 export default function Sections() {
     return (
@@ -28,6 +29,7 @@ export default function Sections() {
             </div>
             <div className="second-section">
             <Experience/>
+            <Studies/>
             </div>
         </div>
     )
