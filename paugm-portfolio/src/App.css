@@ -58,3 +58,10 @@ li {
     width: 75%;
     overflow-y: auto;
 }
+
+.experience-title-company {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
