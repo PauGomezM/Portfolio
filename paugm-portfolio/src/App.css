@@ -1,12 +1,40 @@
-:root {
-    --first-color: rgb(19, 59, 99);
-}
-
 * {
     box-sizing: border-box;
-
 }
 
+/*******default*********/
+h1 {
+    color: #cffafe;
+}
+
+h2 {
+    color: #cffafe;
+}
+
+h3 {
+    color: #cffafe;
+}
+
+h4 {
+    color: #cffafe;
+}
+
+h5 {
+    color: #cffafe;
+}
+
+h6 {
+    color: #cffafe;
+}
+
+p {
+    color: #a5f3fc;
+}
+a {
+    color: #22d3ee;
+}
+
+/*******default*********/
 .sections {
     display: flex;
     height: 100vh;
@@ -15,7 +43,7 @@
 .first-section {
     flex: 0 0 auto;
     padding: 20px;
-    background-color: rgb(82, 82, 82);
+    background-color:#164e63;
     width: 25%;
     height: 100vh;
     overflow: hidden;
@@ -24,7 +52,7 @@
 .second-section {
     flex: 1;
     padding: 20px;
-    background-color: rgb(68, 68, 68);
+    background-color: #083344;
     width: 75%;
     overflow-y: auto;
 }
