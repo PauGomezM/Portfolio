@@ -17,34 +17,34 @@ h1 {
 }
 
 h2 {
-    color: #cffafe;
+    color: #a5f3fc;
     font-weight: 300;
 }
 
 h3 {
-    color: #cffafe;
+    color: #a5f3fc;
 }
 
 h4 {
-    color: #cffafe;
+    color: #a5f3fc;
 }
 
 h5 {
-    color: #cffafe;
+    color: #a5f3fc;
 }
 
 h6 {
-    color: #cffafe;
+    color: #a5f3fc;
 }
 
 p {
-    color: #a5f3fc;
+    color: #22d3ee;
 }
 a {
     color: #22d3ee;
 }
 li {
-    color: #a5f3fc;
+    color: #67e8f9;
 }
 /*******default*********/
 .sections {
@@ -76,6 +76,3 @@ li {
     justify-content: space-between;
 }
 
-.studies-title {
-
-}
