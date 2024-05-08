@@ -68,6 +68,7 @@ li {
 .profile-section1 {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .profile-section1 img {
