@@ -1,6 +1,7 @@
-
+import { useNavigate } from "react-router-dom";
 
 export default function Experience() {
+    const navigate = useNavigate();
     return (
         <div className="experience">
             <h1>WORK EXPERIENCE</h1>
@@ -18,16 +19,28 @@ export default function Experience() {
                         conversions from Leads to Marketing Qualified Leads.</li>
                     <li>Managed and created CRM campaigns, automating emails and workflows.</li>
                 </ul>
-                <div className="tags">
-                    <p>HubSpot</p>
-                    <p>Wordpress</p>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                    <p>Notion</p>
-                    <p>Figma</p>
-                    <p>Google Analytics</p>
-                    <p>Microsoft Excel</p>
+                <div className="experience-elements">
+                    <a href="#" alt="#" onClick={() => navigate('projects-ru')}><button>Projects</button></a>
+                    <div className="experience-tags">
+                        <p>HubSpot</p>
+                        <p>Wordpress</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>Notion</p>
+                        <p>Figma</p>
+                        <p>Google Analytics</p>
+                        <p>Microsoft Excel</p>
+                        <p>HubSpot</p>
+                        <p>Wordpress</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>Notion</p>
+                        <p>Figma</p>
+                        <p>Google Analytics</p>
+                        <p>Microsoft Excel</p>
+                    </div>
                 </div>
             </div>
             <div className="experience-section">
@@ -49,15 +62,18 @@ export default function Experience() {
                         skills, programming with HTML & CSS in most cases, and using  Google Analytics to analyze our audience.</li>
                     <li>Worked with B2B Software categorizing and organizing products in our e-commerce, as well as solving technical issues.</li>
                 </ul>
-                <div className="tags">
-                    <p>Mailchimp</p>
-                    <p>Microsoft Excel</p>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>JavaScript</p>
-                    <p>Adobe Photoshop</p>
-                    <p>Adobe Lightroom</p>
-                    <p>Google Analytics</p>
+                <div className="experience-elements">
+                <a href="#" alt="#"><button>Projects</button></a>
+                    <div className="experience-tags">
+                        <p>Mailchimp</p>
+                        <p>Microsoft Excel</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>Adobe Photoshop</p>
+                        <p>Adobe Lightroom</p>
+                        <p>Google Analytics</p>
+                    </div>
                 </div>
             </div>
             <div className="experience-section">

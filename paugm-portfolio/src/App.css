@@ -42,6 +42,7 @@ h6 {
 
 p {
     color: #99aab5;
+    margin: none;
 }
 a {
     color: #99aab5;
@@ -50,13 +51,18 @@ li {
     color: #99aab5;
 }
 
-.tags {
+button {
+    padding: 5px;
+}
+/***************experience******************/
+
+.experience-tags {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
 }
-.tags p {
+.experience-tags p {
     color: #b9b9b9;
     background-color: #282b30;
     border: 1px solid #b9b9b9;
@@ -116,3 +122,25 @@ li {
     justify-content: space-between;
 }
 
+.experience-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.experience-tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+    justify-content: flex-end;
+}
+.experience-tags p {
+    color: #b9b9b9;
+    background-color: #282b30;
+    border: 1px solid #b9b9b9;
+    font-weight: 700;
+    padding: 2px 8px 2px 8px;
+    border-radius: 5px;
+    font-size: small;
+}
