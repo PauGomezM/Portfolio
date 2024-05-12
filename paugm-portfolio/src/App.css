@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sedan+SC&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,41 +11,59 @@ body {
 }
 
 h1 {
-    color: #cffafe54;
+    color: #99aab591;
+    font-family: "Lato", sans-serif;
     display: flex;
     justify-content: center;
     font-weight: 900;
 }
 
 h2 {
-    color: #a5f3fc;
-    font-weight: 300;
+    color: #99aab5;
 }
 
 h3 {
-    color: #a5f3fc;
+    color: #99aab5;
 }
 
 h4 {
-    color: #a5f3fc;
+    color: #00c7ce;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
 }
 
 h5 {
-    color: #a5f3fc;
+    color: #99aab5;
 }
 
 h6 {
-    color: #a5f3fc;
+    color: #99aab5;
 }
 
 p {
-    color: #22d3ee;
+    color: #99aab5;
 }
 a {
-    color: #22d3ee;
+    color: #99aab5;
 }
 li {
-    color: #67e8f9;
+    color: #99aab5;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.tags p {
+    color: #b9b9b9;
+    background-color: #282b30;
+    border: 1px solid #b9b9b9;
+    font-weight: 700;
+    padding: 2px 8px 2px 8px;
+    border-radius: 5px;
+    font-size: small;
 }
 /*******default*********/
 .sections {
@@ -55,7 +74,7 @@ li {
 .first-section {
     flex: 0 0 auto;
     padding: 20px;
-    background-color:#164e63;
+    background-color:#1e2124;
     width: 25%;
     height: 100vh;
     overflow: hidden;
@@ -78,9 +97,16 @@ li {
 .second-section {
     flex: 1;
     padding: 25px 5% 5% 5% ;
-    background-color: #083344;
+    background-color: #282b30;
     width: 75%;
     overflow-y: auto;
+}
+
+.experience-section {
+    padding: 15px;
+    border: #99aab5 solid 1px;
+    margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 .experience-title-company {

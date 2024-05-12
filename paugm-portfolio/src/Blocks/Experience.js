@@ -3,10 +3,10 @@
 export default function Experience() {
     return (
         <div className="experience">
-        <h1>WORK EXPERIENCE</h1>
-            <div>
+            <h1>WORK EXPERIENCE</h1>
+            <div className="experience-section">
                 <div className="experience-title-company">
-                    <h2>Digital Marketing Specialist</h2>
+                    <h4>Digital Marketing Specialist</h4>
                     <h5>Rentals United</h5>
                 </div>
                 <ul>
@@ -18,10 +18,21 @@ export default function Experience() {
                         conversions from Leads to Marketing Qualified Leads.</li>
                     <li>Managed and created CRM campaigns, automating emails and workflows.</li>
                 </ul>
+                <div className="tags">
+                    <p>HubSpot</p>
+                    <p>Wordpress</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>Notion</p>
+                    <p>Figma</p>
+                    <p>Google Analytics</p>
+                    <p>Microsoft Excel</p>
+                </div>
             </div>
-            <div>
+            <div className="experience-section">
                 <div className="experience-title-company">
-                    <h2>Digital Marketing Specialist</h2>
+                    <h4>Digital Marketing Specialist</h4>
                     <h5>Artfishing.SL</h5>
                 </div>
                 <ul>
@@ -38,15 +49,25 @@ export default function Experience() {
                         skills, programming with HTML & CSS in most cases, and using  Google Analytics to analyze our audience.</li>
                     <li>Worked with B2B Software categorizing and organizing products in our e-commerce, as well as solving technical issues.</li>
                 </ul>
+                <div className="tags">
+                    <p>Mailchimp</p>
+                    <p>Microsoft Excel</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>Adobe Photoshop</p>
+                    <p>Adobe Lightroom</p>
+                    <p>Google Analytics</p>
+                </div>
             </div>
-            <div>
-            <div className="experience-title-company">
-                    <h2>Events Coordinator</h2>
+            <div className="experience-section">
+                <div className="experience-title-company">
+                    <h4>Events Coordinator</h4>
                     <h5>Verbeke Foundation</h5>
                 </div>
                 <ul>
-                    <li>Assistant event coordinator and staff member organizing special events such as weddings, interviews, art 
-                    exhibitions and business meetings, along with other co-workers and volunteers from around the world at a Belgian museum of contemporary art.</li>
+                    <li>Assistant event coordinator and staff member organizing special events such as weddings, interviews, art
+                        exhibitions and business meetings, along with other co-workers and volunteers from around the world at a Belgian museum of contemporary art.</li>
                     <li>Also took the role as a bartender and customer support, as well as helping with logistic tasks or guiding customers to many activities.</li>
                 </ul>
             </div>

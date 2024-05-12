@@ -6,7 +6,7 @@ export default function Profile() {
         <div>
             <div className='profile-section1'>
                 <img className='profile-img' src={profileimage} alt='#' />
-                <h4>Pau GM</h4>
+                <h3>Pau GM</h3>
             </div>
         </div>
     )

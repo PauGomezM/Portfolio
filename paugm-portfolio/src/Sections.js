@@ -1,6 +1,6 @@
 import Experience from "./Blocks/Experience";
 import Studies from "./Blocks/Studies";
-import Profile from "./Sidebar/Profile";
+import Profile from "./Profilebar/Profile";
 
 export default function Sections() {
     return (
