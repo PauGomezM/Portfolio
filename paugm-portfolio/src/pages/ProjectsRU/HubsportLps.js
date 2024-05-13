@@ -1,17 +1,13 @@
-import React from "react";
-import PowerhostImg from '../ru-images/powerhost-app.png';
-import ChannelHandbook from '../ru-images/channel-handbook.png';
-import StrCourse from '../ru-images/str-course.png';
-import AirbnbCourse from '../ru-images/airbnb-course.png';
 
-export default function WordpressLps() {
+
+export default function HubspotLps() {
     return (
         <div>
             <div className="projects-wp-section">
-                <h4>Wordpress landing pages created</h4>
+                <h4>HubSpot landing pages created</h4>
                 <div className="projects-wp-all">
                     <div className="projects-wp-card">
-                        <img src={PowerhostImg} alt="powerhost app img"/>
+                        <img />
                         <div className="projects-wp-card-content">
                             <h5>Powerhost App</h5>
                             <p>Added blocks and sections with images and text applying HTML and CSS. English and Spanish version.</p>
@@ -19,7 +15,7 @@ export default function WordpressLps() {
                         </div>
                     </div>
                     <div className="projects-wp-card">
-                        <img src={ChannelHandbook} alt="channel handbook img"/>
+                        <img />
                         <div className="projects-wp-card-content">
                             <h5>Channel Handbook</h5>
                             <p>Created landing page adding blocks and sections with images, text and embeded HubSpot forms applying HTML and CSS. English and Spanish version.</p>
@@ -27,7 +23,7 @@ export default function WordpressLps() {
                         </div>
                     </div>
                     <div className="projects-wp-card">
-                        <img src={StrCourse}/>
+                        <img />
                         <div className="projects-wp-card-content">
 
                             <h5>STR Revenue Growth Course</h5>
@@ -36,7 +32,7 @@ export default function WordpressLps() {
                         </div>
                     </div>
                     <div className="projects-wp-card">
-                        <img src={AirbnbCourse}/>
+                        <img />
                         <div className="projects-wp-card-content">
                             <h5>Airbnb Course for Hosts</h5>
                             <p>Added blocks and sections with images and text applying HTML and CSS.</p>
