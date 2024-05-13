@@ -7,7 +7,10 @@ export default function Experience() {
             <h1>WORK EXPERIENCE</h1>
             <div className="experience-section">
                 <div className="experience-title-company">
-                    <h4>Digital Marketing Specialist</h4>
+                    <div>
+                        <h4>Digital Marketing Specialist</h4>
+                        <p><i>January 2024 - Present</i></p>
+                    </div>
                     <h5>Rentals United</h5>
                 </div>
                 <ul>
@@ -31,21 +34,15 @@ export default function Experience() {
                         <p>Figma</p>
                         <p>Google Analytics</p>
                         <p>Microsoft Excel</p>
-                        <p>HubSpot</p>
-                        <p>Wordpress</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
-                        <p>Notion</p>
-                        <p>Figma</p>
-                        <p>Google Analytics</p>
-                        <p>Microsoft Excel</p>
                     </div>
                 </div>
             </div>
             <div className="experience-section">
                 <div className="experience-title-company">
-                    <h4>Digital Marketing Specialist</h4>
+                    <div>
+                        <h4>Digital Marketing Specialist</h4>
+                        <p><i>January 2021 - January 2024</i></p>
+                    </div>
                     <h5>Artfishing.SL</h5>
                 </div>
                 <ul>
@@ -63,7 +60,7 @@ export default function Experience() {
                     <li>Worked with B2B Software categorizing and organizing products in our e-commerce, as well as solving technical issues.</li>
                 </ul>
                 <div className="experience-elements">
-                <a href="#" alt="#"><button>Projects</button></a>
+                    <a href="#" alt="#"><button>Projects</button></a>
                     <div className="experience-tags">
                         <p>Mailchimp</p>
                         <p>Microsoft Excel</p>

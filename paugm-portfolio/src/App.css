@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+    background-color: #282b30;
 }
 
 /*******default*********/
@@ -33,7 +34,7 @@ h4 {
 }
 
 h5 {
-    color: #99aab5;
+    color: #c7c7c7;
 }
 
 h6 {
@@ -45,7 +46,7 @@ p {
     margin: none;
 }
 a {
-    color: #99aab5;
+    color: #00c7ce;
 }
 li {
     color: #99aab5;
@@ -53,6 +54,10 @@ li {
 
 button {
     padding: 5px;
+    color: #00c7ce;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #00c7ce;
 }
 /***************experience******************/
 
@@ -143,4 +148,35 @@ button {
     padding: 2px 8px 2px 8px;
     border-radius: 5px;
     font-size: small;
+}
+/*******************projects-ru**************/
+
+.projects-ru button {
+    border: none;
+    border-radius: 0;
+}
+
+.projects-wp-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-wp-all {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+}
+.projects-wp-card {
+    border: #b9b9b9 solid 1px;
+}
+.projects-wp-card img {
+    max-width: 300px;
+    height: auto;
+}
+.projects-wp-card-content {
+    padding: 10px;
+    max-width: 300px;
 }
