@@ -161,13 +161,20 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
 }
-
+.projects-wp-section h4 {
+    text-align: center;
+}
 .projects-wp-all {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     margin: 20px;
+    align-items: top;
+    justify-content: center;
 }
 .projects-wp-card {
     border: #b9b9b9 solid 1px;

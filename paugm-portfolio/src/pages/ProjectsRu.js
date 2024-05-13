@@ -31,7 +31,7 @@ const ProjectsRu = () => {
                     <div className="projects-wp-card">
                         <img src={StrCourse}/>
                         <div className="projects-wp-card-content">
-                        
+
                             <h5>STR Revenue Growth Course</h5>
                             <p>Created 3 landing pages, Part 1, Part 2 and Part 3 adding blocks, sections, embeded videos, text content, using HTML and CSS.</p>
                             <a href="https://rentalsunited.com/vrs-course-the-str-revenue-growth-course-part-1-lp/" target="_blank" rel="noreferrer"><button>View</button></a>
@@ -42,7 +42,7 @@ const ProjectsRu = () => {
                         <div className="projects-wp-card-content">
                             <h5>Lorem ipsum</h5>
                             <p>Lorem ipsum lorem ipsum</p>
-                            <a><button>View</button></a>
+                            <a href="" target="_blank" rel="noreferrer"><button>View</button></a>
                         </div>
                     </div>
                 </div>
