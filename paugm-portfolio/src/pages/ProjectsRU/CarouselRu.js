@@ -9,7 +9,7 @@ import BannerSix from '../ru-images/banner6.png';
 import BannerSeven from '../ru-images/banner7.png';
 import BannerEight from '../ru-images/str-banner.png';
 
-function UncontrolledExample() {
+export default function CarrouselRu() {
   return (
     <Carousel>
       <Carousel.Item>
@@ -37,8 +37,21 @@ function UncontrolledExample() {
           <img src={BannerFive} />
         </div>
       </Carousel.Item>
+      <Carousel.Item>
+      <div className='img-slide'>
+          <img src={BannerSix} />
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className='img-slide'>
+          <img src={BannerSeven} />
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className='img-slide'>
+          <img src={BannerEight} />
+        </div>
+      </Carousel.Item>
     </Carousel>
   );
 }
-
-export default UncontrolledExample;
