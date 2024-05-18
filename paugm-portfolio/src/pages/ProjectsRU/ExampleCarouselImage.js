@@ -1,32 +1,41 @@
 
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from 'components/ExampleCarouselImage';
+import BannerOne from '../ru-images/banner1.png';
+import BannerTwo from '../ru-images/banner2.png';
+import BannerThree from '../ru-images/banner3.png';
+import BannerFour from '../ru-images/banner4.png';
+import BannerFive from '../ru-images/banner5.png';
+import BannerSix from '../ru-images/banner6.png';
+import BannerSeven from '../ru-images/banner7.png';
+import BannerEight from '../ru-images/str-banner.png';
 
 function UncontrolledExample() {
   return (
     <Carousel>
       <Carousel.Item>
-        <ExampleCarouselImage text="First slide" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+        <div className='img-slide'>
+          <img src={BannerOne} />
+        </div>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage text="Second slide" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+      <div className='img-slide'>
+          <img src={BannerTwo} />
+        </div>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage text="Third slide" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+      <div className='img-slide'>
+          <img src={BannerThree} />
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className='img-slide'>
+          <img src={BannerFour} />
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+      <div className='img-slide'>
+          <img src={BannerFive} />
+        </div>
       </Carousel.Item>
     </Carousel>
   );

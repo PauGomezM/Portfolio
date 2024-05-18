@@ -6,7 +6,6 @@ import BannerFive from '../ru-images/banner5.png';
 import BannerSix from '../ru-images/banner6.png';
 import BannerSeven from '../ru-images/banner7.png';
 import BannerEight from '../ru-images/str-banner.png';
-import Carousel from 'react-bootstrap/Carousel';
 import UncontrolledExample from './ExampleCarouselImage';
 
 export default function Banners() {
