@@ -1,4 +1,3 @@
-
 import Carousel from 'react-bootstrap/Carousel';
 import BannerOne from '../ru-images/banner1.png';
 import BannerTwo from '../ru-images/banner2.png';
@@ -9,49 +8,27 @@ import BannerSix from '../ru-images/banner6.png';
 import BannerSeven from '../ru-images/banner7.png';
 import BannerEight from '../ru-images/str-banner.png';
 
+const banners = [
+  BannerOne,
+  BannerTwo,
+  BannerThree,
+  BannerFour,
+  BannerFive,
+  BannerSix,
+  BannerSeven,
+  BannerEight,
+];
+
 export default function CarrouselRu() {
   return (
     <Carousel>
-      <Carousel.Item>
-        <div className='img-slide'>
-          <img src={BannerOne} />
-        </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className='img-slide'>
-          <img src={BannerTwo} />
-        </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className='img-slide'>
-          <img src={BannerThree} />
-        </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className='img-slide'>
-          <img src={BannerFour} />
-        </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className='img-slide'>
-          <img src={BannerFive} />
-        </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className='img-slide'>
-          <img src={BannerSix} />
-        </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className='img-slide'>
-          <img src={BannerSeven} />
-        </div>
-      </Carousel.Item>
-      <Carousel.Item>
-      <div className='img-slide'>
-          <img src={BannerEight} />
-        </div>
-      </Carousel.Item>
+      {banners.map((banner, index) => (
+        <Carousel.Item key={index}>
+          <div className='img-slide'>
+            <img src={banner} alt={`Banner ${index + 1}`} />
+          </div>
+        </Carousel.Item>
+      ))}
     </Carousel>
   );
 }
