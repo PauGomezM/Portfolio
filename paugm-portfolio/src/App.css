@@ -162,8 +162,6 @@ button {
     align-items: center;
     justify-content: center;
     padding: 15px;
-    display: flex;
-    flex-direction: column;
 }
 .projects-section h4 {
     text-align: center;
@@ -186,4 +184,23 @@ button {
 .projects-wp-card-content {
     padding: 10px;
     max-width: 300px;
+}
+.projects-banners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 15px;
+}
+.banner {
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+    padding: 10px;
+}
+/*************projects-art************/
+.projects-art button {
+    border: none;
+    border-radius: 0;
 }

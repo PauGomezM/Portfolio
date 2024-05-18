@@ -6,12 +6,14 @@ import BannerFive from '../ru-images/banner5.png';
 import BannerSix from '../ru-images/banner6.png';
 import BannerSeven from '../ru-images/banner7.png';
 import BannerEight from '../ru-images/str-banner.png';
+import Carousel from 'react-bootstrap/Carousel';
+import UncontrolledExample from './ExampleCarouselImage';
 
 export default function Banners() {
     return (
         <div>
-            <div className="projects-section">
-                <h4>Banners</h4>
+            {/*<div className="projects-section">
+                <h4>Banners & Mockups</h4>
                 <div className="projects-banners">
                     <img src={BannerOne} alt='banner' className="banner"/>
                     <img src={BannerTwo} alt='banner' className="banner"/>
@@ -22,7 +24,8 @@ export default function Banners() {
                     <img src={BannerSeven} alt='banner' className="banner"/>
                     <img src={BannerEight} alt='banner' className="banner"/>
                 </div>
-            </div>
+            </div>*/}
+            <UncontrolledExample/>
         </div>
     )
 }

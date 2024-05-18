@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProjectsRu from "./pages/ProjectsRu";
+import ProjectsArt from "./pages/ProjectsArt";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
         <Route path='/' element={<Sections />} />
           <Route path='projects-ru' element={<ProjectsRu />} />
+          <Route path='projects-art' element={<ProjectsArt/>}/>
         </Routes>
       </Router>
     </div>

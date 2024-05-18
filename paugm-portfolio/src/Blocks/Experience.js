@@ -60,7 +60,7 @@ export default function Experience() {
                     <li>Worked with B2B Software categorizing and organizing products in our e-commerce, as well as solving technical issues.</li>
                 </ul>
                 <div className="experience-elements">
-                    <a href="#" alt="#"><button>Projects</button></a>
+                <a href="#" alt="#" onClick={() => navigate('projects-art')}><button>Projects</button></a>
                     <div className="experience-tags">
                         <p>Mailchimp</p>
                         <p>Microsoft Excel</p>
