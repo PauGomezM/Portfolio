@@ -215,6 +215,9 @@ button {
     height: 350px;
     width: auto;
 }
+.img-slide img {
+    border-radius: 10px;
+}
 .carousel-indicators {
     background-color: transparent;
 }
