@@ -8,6 +8,8 @@ export default function Profile() {
                 <img className='profile-img' src={profileimage} alt='#' />
                 <h3>Pau GM</h3>
             </div>
+            <p></p>
+            
         </div>
     )
 }
