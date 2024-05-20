@@ -47,7 +47,7 @@ export default function PhotographiesArt() {
     return (
         <div>
             <div className="projects-section">
-                <h4>Photographies</h4>
+                <h4>Photographs</h4>
             </div>
             <Carousel>
                 {photographies.map((photography, index) => (

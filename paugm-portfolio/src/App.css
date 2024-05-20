@@ -212,7 +212,7 @@ button {
     margin-bottom: 35px;
 }
 .img-slide {
-    height: 350px;
+    height: 450px;
     width: auto;
 }
 .img-slide img {
@@ -224,7 +224,7 @@ button {
 
 @media only screen and (max-width: 768px) {
     .img-slide {
-        height: 150px;
+        height: 200px;
         width: auto;
     }
 }
