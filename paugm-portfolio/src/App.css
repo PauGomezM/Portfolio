@@ -3,12 +3,12 @@
 
 * {
     box-sizing: border-box;
-    background-color: #282b30;
 }
 
 /*******default*********/
 body {
     font-family: "Nunito", sans-serif;
+    background-color: #282b30;
 }
 
 h1 {
@@ -58,6 +58,7 @@ button {
     font-weight: 600;
     border-radius: 10px;
     border: 1px solid #00c7ce;
+    background-color: #282b30;
 }
 /***************experience******************/
 
@@ -75,6 +76,11 @@ button {
     padding: 2px 8px 2px 8px;
     border-radius: 5px;
     font-size: small;
+    margin-bottom: 0;
+}
+
+.profile-section .experience-tags {
+    justify-content: flex-start;
 }
 /*******default*********/
 .sections {
@@ -94,11 +100,16 @@ button {
     width: 100px;
     border-radius: 100%;
 }
-
+.profile-section {
+    display: flex;
+    flex-direction: column;
+}
 .profile-section1 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .profile-section1 img {

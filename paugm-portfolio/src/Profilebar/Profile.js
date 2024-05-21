@@ -8,10 +8,28 @@ export default function Profile() {
                 <img className='profile-img' src={profileimage} alt='#' />
                 <h3>Pau GM</h3>
             </div>
-            <p>Experienced marketing specialist proficient in web development and UX/UI design. 
-            Skilled in optimizing lead generation, CRM campaigns, and email marketing. 
-            Successfully boosted brand awareness and engagement through social media strategies and influencer partnerships. 
-            Ready to drive impactful marketing solutions for your team.</p>
+            <p>Experienced marketing specialist proficient in web development and UX/UI design.
+                Skilled in optimizing lead generation, CRM campaigns, and email marketing.
+                Successfully boosted brand awareness and engagement through social media strategies and influencer partnerships.
+                Ready to drive impactful marketing solutions for your team.</p>
+            <div className='competencies'>
+                <h4>Competencies</h4>
+                <div className="experience-tags">
+                    <p>HubSpot</p>
+                    <p>Wordpress</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>Notion</p>
+                    <p>Figma</p>
+                    <p>Google Analytics</p>
+                    <p>Microsoft Excel</p>
+                    <p>Mailchimp</p>
+                    <p>Adobe Photoshop</p>
+                    <p>Adobe Lightroom</p>
+                </div>
+            </div>
+
 
         </div>
     )
