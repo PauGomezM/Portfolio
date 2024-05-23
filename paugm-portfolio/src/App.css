@@ -68,6 +68,10 @@ button {
     flex-wrap: wrap;
     gap: 10px;
 }
+.experience-tags img {
+    height: 20px;
+    width: auto;
+}
 .experience-tags p {
     color: #b9b9b9;
     background-color: #282b30;
@@ -77,6 +81,7 @@ button {
     border-radius: 5px;
     font-size: small;
     margin-bottom: 0;
+    align-items: center;
 }
 
 .profile-section .experience-tags {
