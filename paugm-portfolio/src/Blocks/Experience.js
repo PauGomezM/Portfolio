@@ -1,4 +1,16 @@
 import { useNavigate } from "react-router-dom";
+import Hubspot from '../Profilebar/tag-img/hubspot.png';
+import Wordpress from '../Profilebar/tag-img/wordpress.png';
+import Html from '../Profilebar/tag-img/html.png';
+import Css from '../Profilebar/tag-img/css.png';
+import Javascript from '../Profilebar/tag-img/javascript.png';
+import Notion from '../Profilebar/tag-img/notion.png';
+import Figma from '../Profilebar/tag-img/figma.png';
+import GoogleAnalytics from '../Profilebar/tag-img/analytics.png';
+import MicrosoftExcel from '../Profilebar/tag-img/excel.png';
+import Mailchimp from '../Profilebar/tag-img/mailchimp.png';
+import AdobePhotoshop from '../Profilebar/tag-img/photoshop.png';
+import AdobeLightroom from '../Profilebar/tag-img/lightroom.png';
 
 export default function Experience() {
     const navigate = useNavigate();
@@ -25,15 +37,15 @@ export default function Experience() {
                 <div className="experience-elements">
                     <a href="#" alt="#" onClick={() => navigate('projects-ru')}><button>Projects</button></a>
                     <div className="experience-tags">
-                        <p>HubSpot</p>
-                        <p>Wordpress</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
-                        <p>Notion</p>
-                        <p>Figma</p>
-                        <p>Google Analytics</p>
-                        <p>Microsoft Excel</p>
+                        <p><img src={Hubspot} /> HubSpot</p>
+                        <p><img src={Wordpress} /> Wordpress</p>
+                        <p><img src={Html} /> HTML</p>
+                        <p><img src={Css} /> CSS</p>
+                        <p><img src={Javascript} /> JavaScript</p>
+                        <p><img src={Notion} /> Notion</p>
+                        <p><img src={Figma} /> Figma</p>
+                        <p><img src={GoogleAnalytics} /> Google Analytics</p>
+                        <p><img src={MicrosoftExcel} /> Microsoft Excel</p>
                     </div>
                 </div>
             </div>
@@ -60,16 +72,16 @@ export default function Experience() {
                     <li>Worked with B2B Software categorizing and organizing products in our e-commerce, as well as solving technical issues.</li>
                 </ul>
                 <div className="experience-elements">
-                <a href="#" alt="#" onClick={() => navigate('projects-art')}><button>Projects</button></a>
+                    <a href="#" alt="#" onClick={() => navigate('projects-art')}><button>Projects</button></a>
                     <div className="experience-tags">
-                        <p>Mailchimp</p>
-                        <p>Microsoft Excel</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
-                        <p>Adobe Photoshop</p>
-                        <p>Adobe Lightroom</p>
-                        <p>Google Analytics</p>
+                        <p><img src={MicrosoftExcel} /> Microsoft Excel</p>
+                        <p><img src={Mailchimp} /> Mailchimp</p>
+                        <p><img src={Html} /> HTML</p>
+                        <p><img src={Css} /> CSS</p>
+                        <p><img src={Javascript} /> JavaScript</p>
+                        <p><img src={AdobePhotoshop} /> Adobe Photoshop</p>
+                        <p><img src={AdobeLightroom} /> Adobe Lightroom</p>
+                        <p><img src={GoogleAnalytics} /> Google Analytics</p>
                     </div>
                 </div>
             </div>

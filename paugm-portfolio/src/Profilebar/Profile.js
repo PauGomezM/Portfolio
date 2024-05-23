@@ -2,6 +2,15 @@ import profileimage from './profile1.jpg';
 import Hubspot from './tag-img/hubspot.png';
 import Wordpress from './tag-img/wordpress.png';
 import Html from './tag-img/html.png';
+import Css from './tag-img/css.png';
+import Javascript from './tag-img/javascript.png';
+import Notion from './tag-img/notion.png';
+import Figma from './tag-img/figma.png';
+import GoogleAnalytics from './tag-img/analytics.png';
+import MicrosoftExcel from './tag-img/excel.png';
+import Mailchimp from './tag-img/mailchimp.png';
+import AdobePhotoshop from './tag-img/photoshop.png';
+import AdobeLightroom from './tag-img/lightroom.png';
 
 export default function Profile() {
     return (
@@ -17,18 +26,18 @@ export default function Profile() {
             <div className='competencies'>
                 <h4>Competencies</h4>
                 <div className="experience-tags">
-                    <p><img src={Hubspot}/> HubSpot</p>
-                    <p><img src={Wordpress}/> Wordpress</p>
-                    <p><img src={Html}/> HTML</p>
-                    <p><img src={Hubspot}/> CSS</p>
-                    <p><img src={Hubspot}/> JavaScript</p>
-                    <p><img src={Hubspot}/> Notion</p>
-                    <p><img src={Hubspot}/> Figma</p>
-                    <p><img src={Hubspot}/> Google Analytics</p>
-                    <p><img src={Hubspot}/> Microsoft Excel</p>
-                    <p><img src={Hubspot}/> Mailchimp</p>
-                    <p><img src={Hubspot}/> Adobe Photoshop</p>
-                    <p><img src={Hubspot}/> Adobe Lightroom</p>
+                    <p><img src={Hubspot} /> HubSpot</p>
+                    <p><img src={Wordpress} /> Wordpress</p>
+                    <p><img src={Html} /> HTML</p>
+                    <p><img src={Css} /> CSS</p>
+                    <p><img src={Javascript} /> JavaScript</p>
+                    <p><img src={Notion} /> Notion</p>
+                    <p><img src={Figma} /> Figma</p>
+                    <p><img src={GoogleAnalytics} /> Google Analytics</p>
+                    <p><img src={MicrosoftExcel} /> Microsoft Excel</p>
+                    <p><img src={Mailchimp} /> Mailchimp</p>
+                    <p><img src={AdobePhotoshop} /> Adobe Photoshop</p>
+                    <p><img src={AdobeLightroom} /> Adobe Lightroom</p>
                 </div>
             </div>
 
