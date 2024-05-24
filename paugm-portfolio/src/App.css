@@ -45,9 +45,11 @@ p {
     color: #99aab5;
     margin: none;
 }
+
 a {
     color: #00c7ce;
 }
+
 li {
     color: #99aab5;
 }
@@ -60,6 +62,7 @@ button {
     border: 1px solid #00c7ce;
     background-color: #282b30;
 }
+
 /***************experience******************/
 
 .experience-tags {
@@ -68,10 +71,12 @@ button {
     flex-wrap: wrap;
     gap: 10px;
 }
+
 .experience-tags img {
     height: 20px;
     width: auto;
 }
+
 .experience-tags p {
     color: #b9b9b9;
     background-color: #282b30;
@@ -87,28 +92,33 @@ button {
 .profile-section .experience-tags {
     justify-content: flex-start;
 }
+
 /*******default*********/
 .sections {
     display: flex;
     height: 100vh;
 }
+
 /**************first section**********/
 .first-section {
     flex: 0 0 auto;
     padding: 20px;
-    background-color:#1e2124;
+    background-color: #1e2124;
     width: 25%;
     height: 100vh;
     overflow: hidden;
 }
+
 .profile-img {
     width: 100px;
     border-radius: 100%;
 }
+
 .profile-section {
     display: flex;
     flex-direction: column;
 }
+
 .profile-section1 {
     display: flex;
     flex-direction: row;
@@ -120,10 +130,11 @@ button {
 .profile-section1 img {
     margin-right: 20px;
 }
+
 /**************second section**********/
 .second-section {
     flex: 1;
-    padding: 25px 5% 5% 5% ;
+    padding: 25px 5% 5% 5%;
     background-color: #282b30;
     width: 75%;
     overflow-y: auto;
@@ -148,6 +159,7 @@ button {
     justify-content: space-between;
     align-items: top;
 }
+
 .experience-tags {
     display: flex;
     align-items: center;
@@ -156,6 +168,7 @@ button {
     width: 80%;
     justify-content: flex-end;
 }
+
 .experience-tags p {
     color: #b9b9b9;
     background-color: #282b30;
@@ -165,6 +178,7 @@ button {
     border-radius: 5px;
     font-size: small;
 }
+
 /*******************projects-ru**************/
 
 .projects-ru button {
@@ -179,9 +193,15 @@ button {
     justify-content: center;
     padding: 15px;
 }
+
+.projects-section-b h4 {
+    text-align: center;
+}
+
 .projects-section h4 {
     text-align: center;
 }
+
 .projects-wp-all {
     display: flex;
     flex-wrap: wrap;
@@ -190,17 +210,21 @@ button {
     align-items: top;
     justify-content: center;
 }
+
 .projects-wp-card {
     border: #b9b9b9 solid 1px;
 }
+
 .projects-wp-card img {
     max-width: 300px;
     height: auto;
 }
+
 .projects-wp-card-content {
     padding: 10px;
     max-width: 300px;
 }
+
 .projects-banners {
     display: flex;
     align-items: center;
@@ -209,12 +233,14 @@ button {
     padding: 15px;
     gap: 15px;
 }
+
 .banner {
     max-width: 300px;
     max-height: 300px;
     height: auto;
     padding: 10px;
 }
+
 /*************projects-art************/
 .projects-art button {
     border: none;
@@ -227,13 +253,16 @@ button {
     padding: 10px;
     margin-bottom: 35px;
 }
+
 .img-slide {
     height: 450px;
     width: auto;
 }
+
 .img-slide img {
     border-radius: 10px;
 }
+
 .carousel-indicators {
     background-color: transparent;
 }
@@ -243,4 +272,9 @@ button {
         height: 200px;
         width: auto;
     }
+}
+
+.copywriting-links {
+    display: flex;
+    flex-direction: column;
 }
