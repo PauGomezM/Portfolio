@@ -48,6 +48,7 @@ export default function PhotographiesArt() {
         <div>
             <div className="projects-section">
                 <h4>Photographs</h4>
+                <p>These are some of the photos I've made and edited it with Adobe Photoshop and Adobe Lightroom:</p>
             </div>
             <Carousel>
                 {photographies.map((photography, index) => (

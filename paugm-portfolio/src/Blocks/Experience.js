@@ -66,10 +66,11 @@ export default function Experience() {
                     <li>Managed a 50000€ budget for sponsorships, World Champions, and influencers, in coordination
                         with the accounting department, invoicing department, and export department.</li>
                     <li>Provided graphic content having provided +1000 professional photos, improving Photoshop,
-                        Lightroom knowledge, and photography skills to develop the Yuki and Fishus Catalogues every year.</li>
+                        Lightroom, Ilustrator and InDesign knowledge, and photography skills to develop the Yuki and Fishus Catalogues every year: See the <a href="https://www.yukicompetition.com/catalog-download.php" target="_blank">Yuki 2024 Catalogue</a> and <a href="https://www.fishuslures.com/en/fishus-catalog" target="_blank">Fishus 2024 Catalogue</a> made during 2023.</li>
                     <li>Wrote +500 product descriptions on the yukicompetition website, applying SEO, improving copyrighting
                         skills, programming with HTML & CSS in most cases, and using  Google Analytics to analyze our audience.</li>
                     <li>Worked with B2B Software categorizing and organizing products in our e-commerce, as well as solving technical issues.</li>
+                    <li>Project made from scratch with HTML, CSS and JS where you'll find all the Social Media accounts I've managed during my time at the company: <a href="https://www.yukicompetition.com/landing-social-media/" target="_blank">Social Media accounts</a></li>
                 </ul>
                 <div className="experience-elements">
                     <a href="#" alt="#" onClick={() => navigate('projects-art')}><button>Projects</button></a>
