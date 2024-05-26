@@ -1,0 +1,46 @@
+@media only screen and (max-width: 768px) {
+
+    h4 {
+        color: #00c7ce;
+        font-weight: 600;
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+    }
+    h5 {
+        color: #c7c7c7;
+        font-size: 16px;
+    }
+    li {
+        color: #99aab5;
+        font-size: 14px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .sections {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .first-section {
+        flex: 0 0 auto;
+        padding: 20px;
+        background-color: #1e2124;
+        width: 100%;
+        height: auto;
+    }
+
+    .second-section {
+        flex: 1;
+        padding: 25px 5% 5% 5%;
+        background-color: #282b30;
+        width: 100%;
+        overflow-y: auto;
+    }
+
+    .img-slide {
+        height: 180px;
+        width: auto;
+    }
+}

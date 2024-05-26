@@ -1,6 +1,8 @@
 import Sections from "./Sections";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import './AppMobile.css';
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProjectsRu from "./pages/ProjectsRu";
 import ProjectsArt from "./pages/ProjectsArt";
