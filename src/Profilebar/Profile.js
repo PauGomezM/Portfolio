@@ -26,7 +26,7 @@ export default function Profile() {
             <div className='competencies'>
                 <h4>Competencies</h4>
                 <div className="experience-tags">
-                    <p><img src={Hubspot} /> HubbSpot</p>
+                    <p><img src={Hubspot} /> HubSpot</p>
                     <p><img src={Wordpress} /> Wordpress</p>
                     <p><img src={Html} /> HTML</p>
                     <p><img src={Css} /> CSS</p>
